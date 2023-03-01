@@ -6,8 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <div class="imagen">
+      <img src="https://i.pinimg.com/564x/8d/2d/de/8d2ddec014390b4c118d91b46ccb6628.jpg" style="width: 1070%" alt="foto postner.jpg"
+    ></div>
+   <header>
+    <h1>Validación Tarjeta de Crédito</h1>
+    <h2>Para finalizar necesitamos que complete con lo solicitado:</h2>
+   </header>
+  <main>
+      <div class="contenedor">
+     <form action="" class="formulario" id="formulario"> 
+        <div class="formulario1">
+            
+          <h2> Datos de su Tarjeta</h2>  
+         </div>
+        <div class="input">
+          <label for="numeros">INGRESE EL NÚMERO</label>
+          <input type="tex" id="numeros" required pattern="[0-9]+" maxlength="16" minlength="10">
+          
+          <br>
+          <p>A CONTINUACIÓN VALIDAREMOS SU TARJETA DE CRÉDITO...</p>
+          </div>
+          <div class="btnValidar">
+            <button type="submit" id="btnValidar">Validar</button>
+            <p id="mensaje" class=""></p> 
+            <p id="parrafo" class=""> </p> 
+          </div>   
+        </form>
+    </div>
+ </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>

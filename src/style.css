@@ -1,0 +1,68 @@
+body {
+	background:rgb(202, 235, 125);
+	font-family: 'Lato', sans-serif;
+  position: relative;
+}
+ h1 {
+    color: rgb(5, 5, 5);
+       width: 100%;
+       max-width: 700px;
+       padding: 50px 50px;
+       margin: auto;
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+}
+ h2 {
+  color: black;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px 20px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+ .imagen {
+  position:absolute;
+  left: 170px;
+  top: 70%;
+  height: 50px;
+  width: 30px;
+
+ }
+
+ .formulario{
+        background-color:rgba(218, 231, 188, 0.881);
+        width: 100%;
+        max-width: 700px;
+        padding: 40px 20px;
+        margin: auto;     
+    }
+ 
+ .input{
+        margin-bottom: 10px;
+        padding: 30px 20px;
+
+    }
+
+  .btnValidar{
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    display:flex;
+  
+  } 
+ 
+
